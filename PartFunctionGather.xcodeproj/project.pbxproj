@@ -35,6 +35,7 @@
 		C32A734E1E728F62006DA781 /* bbc_tr_zt_b.png in Resources */ = {isa = PBXBuildFile; fileRef = C32A734D1E728F62006DA781 /* bbc_tr_zt_b.png */; };
 		C32A73501E728FC1006DA781 /* bbc_th_msry.png in Resources */ = {isa = PBXBuildFile; fileRef = C32A734F1E728FC1006DA781 /* bbc_th_msry.png */; };
 		C32A73521E728FC5006DA781 /* bbc_th_smdq.png in Resources */ = {isa = PBXBuildFile; fileRef = C32A73511E728FC5006DA781 /* bbc_th_smdq.png */; };
+		C3F8F31F1EB85AB50084145E /* WMCustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F8F31E1EB85AB50084145E /* WMCustomClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		C32A734D1E728F62006DA781 /* bbc_tr_zt_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbc_tr_zt_b.png; sourceTree = "<group>"; };
 		C32A734F1E728FC1006DA781 /* bbc_th_msry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbc_th_msry.png; sourceTree = "<group>"; };
 		C32A73511E728FC5006DA781 /* bbc_th_smdq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbc_th_smdq.png; sourceTree = "<group>"; };
+		C3F8F31D1EB85AB50084145E /* WMCustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomClass.h; sourceTree = "<group>"; };
+		C3F8F31E1EB85AB50084145E /* WMCustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 				C32A73221E72562C006DA781 /* HideNav */,
 				C32A73291E72562C006DA781 /* ShakeCell */,
 				C32A72F31E725400006DA781 /* Main.storyboard */,
+				C3F8F31D1EB85AB50084145E /* WMCustomClass.h */,
+				C3F8F31E1EB85AB50084145E /* WMCustomClass.m */,
 				C32A733B1E728DC1006DA781 /* wemart_focus.png */,
 				C32A733C1E728DC1006DA781 /* wemart_love.png */,
 				C32A733D1E728DC1006DA781 /* wemart_loved.png */,
@@ -398,6 +403,7 @@
 				C32A72EC1E725400006DA781 /* main.m in Sources */,
 				C32A73321E72562C006DA781 /* iCarousel.m in Sources */,
 				C32A73301E72562C006DA781 /* UINavigationBar+Awesome.m in Sources */,
+				C3F8F31F1EB85AB50084145E /* WMCustomClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +635,7 @@
 				C32A73161E725400006DA781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32A73171E725400006DA781 /* Build configuration list for PBXNativeTarget "PartFunctionGatherTests" */ = {
 			isa = XCConfigurationList;
@@ -637,6 +644,7 @@
 				C32A73191E725400006DA781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C32A731A1E725400006DA781 /* Build configuration list for PBXNativeTarget "PartFunctionGatherUITests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +653,7 @@
 				C32A731C1E725400006DA781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
