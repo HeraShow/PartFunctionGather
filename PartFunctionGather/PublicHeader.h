@@ -15,7 +15,11 @@
 // 颜色RGB 通用
 #define ColorRGB(a,b,c) [UIColor colorWithRed:a/255.0 green:b/255.0 blue:c/255.0 alpha:1]
 
+//  平方字体的 中等／细体／粗体
 #define WMMediumFont(FontSize) [UIFont fontWithName:@"PingFangSC-Medium" size:FontSize]
+#define WMLightFont(FontSize) [UIFont fontWithName:@"PingFangSC-Light" size:FontSize]
+#define WMBoldFont(FontSize) [UIFont fontWithName:@"PingFangSC-Bold" size:FontSize]
+
 
 #import "ViewController.h"
 #import "UINavigationBar+Awesome.h"
