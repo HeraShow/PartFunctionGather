@@ -473,7 +473,6 @@
     if (offsetY > offsetYL + oldY) {
         
         avatarView.hidden = YES;
-        topAvatarView.hidden = NO;
         
         //64的距离，alpha从0到1。
         CGFloat alpha;
@@ -495,16 +494,17 @@
         [self.navigationController.navigationBar lt_setBackgroundColor:[color colorWithAlphaComponent:alpha]];
         leftBtn.alpha = btnAlpha;
         rightBtn.alpha = btnAlpha;
+        topAvatarView.hidden = NO;
+
         
     }else{
         topAvatarView.hidden = YES;
-        avatarView.hidden = NO;
         
         [self.navigationController.navigationBar lt_setBackgroundColor:[color colorWithAlphaComponent:0]];
         [self btnStartState];
         leftBtn.alpha = 1.0;
         rightBtn.alpha = 1.0;
-        
+        avatarView.hidden = NO;
     }
     
 }
